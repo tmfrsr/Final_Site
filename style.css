@@ -1,0 +1,10 @@
+#canvasbox {
+display: flex;
+flex-direction: row;
+flex-grow: 1;
+margin-left: 50px;
+width: 5px;
+
+
+
+}
