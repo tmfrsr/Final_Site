@@ -3,19 +3,55 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
-    <script src="main.js"></script>
+
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-    <section>
-      
-    </section>
-    <section id=canvasbox>
+    <header>
+        <h3>YOYOYOYO</h3>
+  </header>
+    <main>
+      <section id="speedUpButtons01" >
+        <ul>
+          <li><button class="square" id="squareup" type="button" name="button"></button></li>
+          <li><button class= "pentagon" id="pentagoneup" type="button" name="button"></button></li>
+        </ul>
+      </section>
+      <section id="speedUpButtons02">
+        <ul>
+          <li><button class= "circle"  id="circl1eup" type="button" name="button"></button></li>
+          <li><button class= "triangle" id="circle2up" type="button" name="button"></button></li>
+          <li><button class= "hexagon" id="circle3up" type="button" name="button"></button></li>
+        </ul>
+      </section>
+      <section id=allcanvas>
+        <div id="canvasbox001"></div>
+        <div  id="canvasbox002"></div >
+        <div  id="canvasbox003"></div >
+      </section>
 
-    </section>
+      <section id="slowDownButtons01">
+        <ul>
+          <li><button class= "circle" id="circle1down" type="button" name="button"></button></li>
+          <li><button class= "triangle" id="circle2down" type="button" name="button"></button></li>
+          <li><button class= "hexagon" id="circle3down" type="button" name="button"></button></li>
+        </ul>
+      </section>
+      <section id="slowDownButtons02">
+        <ul>
+          <li><button class= "square" id="squaredown" type="button" name="button"></button></li>
+          <li><button class= "pentagon" id="pentagonedown" type="button" name="button"></button></li>
+        </ul>
+      </section>
+    </main>
+   </body>
 
-  </body>
+<script src="p5.js"></script>
+<script src="p5.dom.js"></script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="sketch001.js"></script>
+<script src="sketch002.js"></script>
+<script src="sketch003.js"></script>
+
 </html>
