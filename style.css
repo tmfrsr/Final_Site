@@ -12,104 +12,51 @@ main {
   }
 ul {
   padding:0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
 li {
   width: 80px;
   height: 80px;
   list-style: none;
-  padding:10px;
-}
-
-
-  #speedUpButtons01{
-    flex-grow: 1;
-  }
-  #speedUpButtons02{
-    flex-grow: 1;
-  }
-  #slowDownButtons01{
-    flex-grow: 1;
-  }
-  #slowDownButtons02{
-    flex-grow: 1;
-  }
-#canvasbox001 {
-  display: flex;
-height: 30%
-width:600px;
-background: gray;
-  /*margin:17px;*/
-/*display: flex;
-justify-content: space-between;
-align-items: center;*/
-}
-#canvasbox002 {
-display: flex;
-height:30%;
-width:600px;
-background: gray;
-
-  /*margin:17px;*/
-/*display: flex;
-justify-content: space-between;
-align-items: center;*/
-}
-#canvasbox003 {
-display: flex;
-background: gray;
-height:30%;
-width:600px;
-  /*margin:17px;*/
-/*display: flex;
-justify-content: space-between;
-align-items: center;*/
+  padding:12px;
 }
 #allcanvas {
   margin: 0;
-
-
-
   height: 300px;
   width: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
  }
-
 button{
-
   border: none;
   outline: none;
   width: 80px;
   height:80px;
-  margin: 3px;
-  padding: 5px;
-
 }
 .square {
   background: url("images/square.png") no-repeat;
   background-size: contain;
   background-position: center;
-
 }
 .pentagon {
-transform: rotate(9deg);
-background: url("images/pentagon.png") no-repeat;
-background-size: contain;
-background-position: center;
+  transform: rotate(9deg);
+  background: url("images/pentagon.png") no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 .circle{
-
-background: url("images/circle.png") no-repeat;
-background-size: contain;
-background-position: center;
+  background: url("images/circle.png") no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 .triangle  {
-background: url("images/triangle.png") no-repeat;
-background-size: contain;
-background-position: center;
+  background: url("images/triangle.png") no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 .hexagon {
   background: url("images/hexagon.png") no-repeat;

@@ -9,22 +9,26 @@
 
   <body>
     <header>
-        <h3>YOYOYOYO</h3>
+        <h3>YO-YO-YO</h3>
   </header>
     <main>
       <section id="speedUpButtons01" >
+        <!-- first column of buttons -->
+        <!-- please note some of the IDs and classes aren't being used in the current version, and aren't matching the content of the site, eventually other shapes will be working -->
         <ul>
           <li><button class="square" id="squareup" type="button" name="button"></button></li>
           <li><button class= "pentagon" id="pentagoneup" type="button" name="button"></button></li>
         </ul>
       </section>
       <section id="speedUpButtons02">
+        <!-- second column of buttons -->
         <ul>
-          <li><button class= "circle"  id="circl1eup" type="button" name="button"></button></li>
+          <li><button class= "circle"  id="circle1up" type="button" name="button"></button></li>
           <li><button class= "triangle" id="circle2up" type="button" name="button"></button></li>
           <li><button class= "hexagon" id="circle3up" type="button" name="button"></button></li>
         </ul>
       </section>
+      <!-- creates the section where 3 canvases from p5 will be directed -->
       <section id=allcanvas>
         <div id="canvasbox001"></div>
         <div  id="canvasbox002"></div >
@@ -32,6 +36,7 @@
       </section>
 
       <section id="slowDownButtons01">
+        <!-- third column of buttons -->
         <ul>
           <li><button class= "circle" id="circle1down" type="button" name="button"></button></li>
           <li><button class= "triangle" id="circle2down" type="button" name="button"></button></li>
@@ -39,6 +44,7 @@
         </ul>
       </section>
       <section id="slowDownButtons02">
+        <!-- fourth column of buttons -->
         <ul>
           <li><button class= "square" id="squaredown" type="button" name="button"></button></li>
           <li><button class= "pentagon" id="pentagonedown" type="button" name="button"></button></li>
@@ -46,7 +52,7 @@
       </section>
     </main>
    </body>
-
+<!-- although not ideal, I've had to put the scripts here as it was too much of a headache working out conflicting vars and functions in javascript and the document ready funtion -->
 <script src="p5.js"></script>
 <script src="p5.dom.js"></script>
 <script src="jquery-3.3.1.js"></script>
